@@ -6,7 +6,7 @@
 
  */
 /*
-    truthy  any number is positive or negitive 
+    truthy  any number is positive or negative 
     any string including single whitespace 
     empty array 
     empty object 
@@ -14,11 +14,11 @@
 */
 
 const x = false;
-if (x){
-    console.log('veriable is truthy');
+if (x) {
+    console.log('variable is truthy');
 
-}else{
-    console.log('veriable is falsy ');
+} else {
+    console.log('variable is falsy ');
 }
 
 

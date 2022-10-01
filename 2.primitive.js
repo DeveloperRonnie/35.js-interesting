@@ -11,10 +11,10 @@ primitive data type
 
 
 
-const x= {job: 'web Developer'}
+const x = { job: 'web Developer' }
 const y = x;
-console.log(x,y);
+console.log(x, y);
 
 // x.job = 'font end deleloper';
-y.job = 'font end developer';
-console.log(x,y);
+y.job = 'front end developer';
+console.log(x, y);

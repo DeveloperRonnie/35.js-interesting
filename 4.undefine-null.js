@@ -5,35 +5,35 @@
 4. parameter that isn't passed 
 */
 
-let first 
+let first
 console.log(first);
 
-function second (x,y){
-    const sum = x + y ;
+function second(x, y) {
+    const sum = x + y;
 }
 
-const result = second(4,5);
+const result = second(4, 5);
 console.log(result);
 
 
-function add (a,b){
+function add(a, b) {
     const sum = a + b;
     return;
-    if(b < 10){
+    if (b < 10) {
         return
     }
-    const fun = a * b; 
-    return sum ;
+    const fun = a * b;
+    return sum;
 }
 
-const fourth = add (2,5);
+const fourth = add(2, 5);
 console.log(fourth)
 
 
-function double(a,b){
-    const result = a*2;
+function double(a, b) {
+    const result = a * 2;
     console.log(b);
-    return  result;
+    return result;
 }
 
 
